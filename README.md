@@ -11,7 +11,7 @@ If the travel date is within next 7 days then only today's weather information i
 
 If the travel date is beyond the 7 days then it shows today's weather and next 16 days's forecasted weather for the target location.
 
-Th goal of this project is also to practice with:
+The goal of this project is also to practice with:
 - Setting up Webpack
 - Sass styles
 - Webpack Loaders and Plugins
