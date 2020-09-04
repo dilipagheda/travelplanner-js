@@ -57,9 +57,9 @@ PIXABAY_APIKEY=<YOUR API KEY>
 
 # Test coverage using JEST
 
-![img](https://github.com/dilipagheda/evaluate-news-nlp/blob/master/screenshots/jest_test_report.PNG)
+![img](https://github.com/dilipagheda/travelplanner-js/blob/master/screenshots/jest_test_report.PNG)
 
 
 # Home page - Screenshot
 
-![img](https://github.com/dilipagheda/evaluate-news-nlp/blob/master/screenshots/homepage.png)
+![img](https://github.com/dilipagheda/travelplanner-js/blob/master/screenshots/travel_app_demo.gif)
