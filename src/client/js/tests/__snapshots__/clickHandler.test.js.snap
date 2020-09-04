@@ -1,0 +1,2399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verify clickHandler function displays the loader while waiting for the result from api 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+        
+      <div
+        class="loader-container"
+      >
+        
+            
+        <div
+          class="wait-text"
+        >
+          Please wait..
+        </div>
+        
+            
+        <div
+          class="loader"
+        />
+        
+        
+      </div>
+          
+    
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify clickHandler function throws correct validation errors 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+        
+      <div
+        class="error"
+      >
+        
+            Please enter valid values!
+        
+      </div>
+      
+    
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify current weather response 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+        
+      <div
+        class="trip-item-container"
+      >
+        
+            
+        <div
+          class="trip-item-header"
+        >
+          
+                
+          <div
+            class="flag"
+          >
+            
+                    
+            <img
+              alt=""
+              src="https://restcountries.eu/data/aus.svg"
+            />
+            
+                
+          </div>
+          
+                
+          <div
+            class="taglines"
+          >
+            
+                    
+            <h2
+              class="header1"
+            >
+              <span
+                class="static"
+              >
+                My trip to: 
+              </span>
+              Sydney, Australia
+            </h2>
+            
+                    
+            <h2
+              class="header2"
+            >
+              <span
+                class="static"
+              >
+                Departing: 
+              </span>
+              Monday, September 7th 2020
+            </h2>
+            
+                
+          </div>
+          
+            
+        </div>
+        
+        
+            
+        <div
+          class="trip-item"
+        >
+          
+                
+          <div
+            class="location-image"
+          >
+            
+            
+            <img
+              alt=""
+              src="https://pixabay.com/get/55e6d6414e56b10ff3d8992cc62f3f7a1537dfed4e5074407c2e79d39144c1_640.jpg"
+            />
+            
+        
+          </div>
+          
+    
+                
+          <div
+            class="location-info"
+          >
+            
+                    
+            <h2
+              class="header-with-background"
+            >
+              Fun Facts about Sydney
+            </h2>
+            
+                    
+        
+            <ul
+              class="fun-facts"
+            >
+              
+            
+              <li>
+                Sydney is located in Australia within the region of Oceania and subregion of Australia and New Zealand
+              </li>
+              
+            
+              <li>
+                Its capital is Canberra
+              </li>
+              
+            
+              <li>
+                Its total population is 24117360
+              </li>
+              
+            
+              <li>
+                Its currency is Australian dollar and its symbol is $
+              </li>
+              
+            
+              <li>
+                Local language spoken is English and its native name is English
+              </li>
+              
+        
+            </ul>
+            
+    
+                    
+            <h2
+              class="header-with-background"
+            >
+              Today's weather at Sydney
+            </h2>
+            
+                    
+        
+            <div
+              class="weather-item"
+            >
+              
+            
+              <div
+                class="weather-item-data"
+              >
+                
+                
+                <div
+                  class="temp"
+                >
+                  
+                    
+                  <div
+                    class="label"
+                  >
+                    Temperature
+                  </div>
+                  
+                    
+                  <div
+                    class="value"
+                  >
+                    25.6 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                
+                </div>
+                
+                
+                <div
+                  class="temp"
+                >
+                  
+                    
+                  <div
+                    class="label"
+                  >
+                    Feels like
+                  </div>
+                  
+                    
+                  <div
+                    class="value"
+                  >
+                    25.5 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                
+                </div>
+                
+            
+              </div>
+              
+            
+              <div
+                class="weather-item-desc"
+              >
+                
+                
+                <span>
+                  Scattered clouds
+                </span>
+                
+            
+              </div>
+              
+        
+            </div>
+            
+    
+                
+          </div>
+          
+            
+        </div>
+        
+            
+        
+      </div>
+      
+    
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify forecasted weather response 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+        
+      <div
+        class="trip-item-container"
+      >
+        
+            
+        <div
+          class="trip-item-header"
+        >
+          
+                
+          <div
+            class="flag"
+          >
+            
+                    
+            <img
+              alt=""
+              src="https://restcountries.eu/data/aus.svg"
+            />
+            
+                
+          </div>
+          
+                
+          <div
+            class="taglines"
+          >
+            
+                    
+            <h2
+              class="header1"
+            >
+              <span
+                class="static"
+              >
+                My trip to: 
+              </span>
+              Sydney, Australia
+            </h2>
+            
+                    
+            <h2
+              class="header2"
+            >
+              <span
+                class="static"
+              >
+                Departing: 
+              </span>
+              Friday, September 11th 2020
+            </h2>
+            
+                
+          </div>
+          
+            
+        </div>
+        
+        
+            
+        <div
+          class="trip-item"
+        >
+          
+                
+          <div
+            class="location-image"
+          >
+            
+            
+            <img
+              alt=""
+              src="https://pixabay.com/get/55e6d6414e56b10ff3d8992cc62f3f7a1537dfed4e5074407c2e79d09648c7_640.jpg"
+            />
+            
+        
+          </div>
+          
+    
+                
+          <div
+            class="location-info"
+          >
+            
+                    
+            <h2
+              class="header-with-background"
+            >
+              Fun Facts about Sydney
+            </h2>
+            
+                    
+        
+            <ul
+              class="fun-facts"
+            >
+              
+            
+              <li>
+                Sydney is located in Australia within the region of Oceania and subregion of Australia and New Zealand
+              </li>
+              
+            
+              <li>
+                Its capital is Canberra
+              </li>
+              
+            
+              <li>
+                Its total population is 24117360
+              </li>
+              
+            
+              <li>
+                Its currency is Australian dollar and its symbol is $
+              </li>
+              
+            
+              <li>
+                Local language spoken is English and its native name is English
+              </li>
+              
+        
+            </ul>
+            
+    
+                    
+            <h2
+              class="header-with-background"
+            >
+              Today's weather at Sydney
+            </h2>
+            
+                    
+            
+            <div
+              class="weather-item"
+            >
+              
+                
+              <div
+                class="weather-item-data"
+              >
+                
+                    
+                <div
+                  class="temp"
+                >
+                  
+                        
+                  <div
+                    class="label"
+                  >
+                    High
+                  </div>
+                  
+                        
+                  <div
+                    class="value"
+                  >
+                    28.1 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                    
+                </div>
+                
+                    
+                <div
+                  class="temp"
+                >
+                  
+                        
+                  <div
+                    class="label"
+                  >
+                    Low
+                  </div>
+                  
+                        
+                  <div
+                    class="value"
+                  >
+                    16.5 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                    
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="weather-item-desc"
+              >
+                
+                    
+                <span>
+                  Scattered clouds
+                </span>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+        
+                
+          </div>
+          
+            
+        </div>
+        
+            
+        <h2
+          class="forecasted-weather-header"
+        >
+          Forecasted Weather for next 16 days
+        </h2>
+        
+    
+        <div
+          class="forecasted-weather"
+        >
+          
+        
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-03
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  28.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  16.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Scattered clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-04
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  21.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  12.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Overcast clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-05
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  19.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  10.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Few clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-06
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  18.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  11.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Few clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-07
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  22.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  13.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Clear Sky
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-08
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  26.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  13.2 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Scattered clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-09
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  15.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  11.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Overcast clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-10
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  18.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  10.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Broken clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-11
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  14.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  11.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Broken clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-12
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  19.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  9.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Few clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-13
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  14.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  9.2 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Overcast clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-14
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  17.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  11.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Scattered clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-15
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  24.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  17.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Few clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-16
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  15.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  9 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Overcast clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-17
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  18.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  11.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Few clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+         
+            
+          <div
+            class="weather-item"
+          >
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                2020-09-18
+              </span>
+              
+            
+            </div>
+                                        
+            
+            <div
+              class="weather-item-data"
+            >
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  27.2 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+                
+              <div
+                class="temp"
+              >
+                
+                    
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                    
+                <div
+                  class="value"
+                >
+                  17.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                
+              </div>
+              
+            
+            </div>
+            
+            
+            <div
+              class="weather-item-desc"
+            >
+              
+                
+              <span>
+                Scattered clouds
+              </span>
+              
+            
+            </div>
+            
+        
+          </div>
+          
+        
+    
+        </div>
+         
+        
+      </div>
+      
+    
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
