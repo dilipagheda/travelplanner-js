@@ -1,13 +1,12 @@
-import  clickHandler  from "../clickHandler";
+import clickHandler from "../clickHandler";
 import { enableFetchMocks } from "jest-fetch-mock";
-import {responseCurrentWeather} from '../../mock/responseCurrentWeather'
-import {responseForcasted} from '../../mock/responseForecastedWeather'
+import { responseCurrentWeather } from "../../mock/responseCurrentWeather";
+import { responseForcasted } from "../../mock/responseForecastedWeather";
 
 beforeEach(() => {
   enableFetchMocks();
   fetch.resetMocks();
 });
-
 
 test("verify clickHandler function throws correct validation errors", () => {
   const event = { preventDefault: () => {} };
@@ -67,9 +66,9 @@ test("verify clickHandler function displays the loader while waiting for the res
           </div>
         </div>  
     `;
-  
-  document.getElementById('destination').value = "sydney"
-  document.getElementById('start-date').value = "29/09/2020"
+
+  document.getElementById("destination").value = "sydney";
+  document.getElementById("start-date").value = "29/09/2020";
 
   fetch.mockResponse(() => {
     //Verify that portion of response data is in DOM
@@ -109,9 +108,9 @@ test("verify current weather response", () => {
           </div>
         </div>  
     `;
-  
-  document.getElementById('destination').value = "sydney"
-  document.getElementById('start-date').value = "29/09/2020"
+
+  document.getElementById("destination").value = "sydney";
+  document.getElementById("start-date").value = "29/09/2020";
 
   fetch.mockResponse(() => {
     return new Promise((resolve) => {
@@ -151,9 +150,9 @@ test("verify forecasted weather response", () => {
           </div>
         </div>  
     `;
-  
-  document.getElementById('destination').value = "sydney"
-  document.getElementById('start-date').value = "29/09/2020"
+
+  document.getElementById("destination").value = "sydney";
+  document.getElementById("start-date").value = "29/09/2020";
 
   fetch.mockResponse(() => {
     return new Promise((resolve) => {
@@ -168,4 +167,3 @@ test("verify forecasted weather response", () => {
     expect(document.body).toMatchSnapshot();
   });
 });
-
